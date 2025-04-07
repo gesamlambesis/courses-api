@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/school
+    username: postgres
+    password: password_database
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  address: 0.0.0.0
+  port: 8080
